@@ -1,0 +1,149 @@
+/* Background color for the entire website */
+* { 
+    background-color: #F9F9F9;  /* white background for the whole website F9F9F9*/
+}
+/* Navigation bar attributes (applies to all pages) */
+/* Main logo of the main page (index.html) and the join us page */
+div#_rks_logo img {
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+}
+/* contact info footer for the main page and the join us page */
+div#_contact_info a {
+	font-size: 200%;
+	color: #444;
+	text-shadow: 1px 1px 3px #ed1eb3;
+}
+
+div#navbar ul {
+	/* list-style-type: none; */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    top: 0;
+    width: 90em; 
+    background-color: #222222
+}
+div#navbar li {
+    display: inline;
+    float: left;
+    border-right: 1px;
+    /* padding: 30px;*/
+}
+div #navbar li:last-child {
+    border-right: none;
+}
+div#navbar a {
+	display: block;
+	padding: 15px 50px;
+	font-size: 170%;
+	background-color:  #222222;
+	color: #FFFFFF;
+	/* border-radius: 200px; */
+}
+div#navbar a:hover {
+	display: block;
+	padding: 15px 50px;
+	font-size: 170%;
+	background-color: #2ad617;
+	/* border-radius: 200px; */
+}
+head div#navbar {
+	text-align: center;
+}
+
+
+/* Main page (index.html) (page 1) */
+body#main_body {
+	text-align: center;
+}
+
+div#_footer img {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    width: 18em;
+    height: 9em;
+}
+div#_footer ul {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+div#_footer li {
+	display: inline;
+    float: center;
+    border-right: 1px;
+}
+
+
+/* Coach Bio settings (page 2) */
+div#_header_name { 
+	padding-left: 40px;
+	padding-bottom: 8px;
+}
+div#_biography_paragraphs p {
+	font-size: 155%;
+	line-height: 1.5em;
+	padding-left: 40px;
+}
+div#_biography_paragraphs img {
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	width: 10em;
+	height: 18em;
+}
+div#_usars_footer img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+
+/* Adjust the size display of the google calendar (calendar.html) (page 3) */
+div#google_calendar iframe {
+	border-style: none;  /* Eliminate the border around the calendar */
+	padding-left: 2.5%;
+	padding-top: 1em;
+	height: 45em;
+	width: 95%;
+}
+
+
+/* Join us page specifics (page 4) */
+/* Body of the join us page (join_us.html) */
+body#join_us_body {
+	text-align: center;
+}
+div#_rink_location ul {
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+div#_rink_location li {
+    display: inline;
+    float: center;
+    border-right: 1px;
+    /* padding: 30px;*/
+}
+div #_rink_location li:last-child {
+    border-right: none;
+}
+div#_rink_location img {
+    height: 30em;
+    width: 37em;
+    padding-left: 1%;
+}
+div#_rink_location p {
+	font-size: 130%;
+}
+
+
+
